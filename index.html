@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html amp lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <title>Hello, AMPs</title>
+    <link rel="canonical" href="https://amp.dev/documentation/guides-and-tutorials/start/create/basic_markup/">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <meta name="viewport" content="width=device-width">
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "headline": "Open-source framework for publishing content",
+        "datePublished": "2015-10-07T12:02:41Z",
+        "image": [
+          "logo.jpg"
+        ]
+      }
+    </script>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+  </head>
+  <body>
+    <section>
+      <div style="margin-top: 30px; text-align: center">
+        <h1>Profile Cards</h1>
+        <p style="padding-top: 10px">
+          Drag and Drop to re-arrange the order of the cards!
+        </p>
+      </div>
+
+      <div class="bd-container">
+        <div class="card__container" id="drop-items">
+          <div class="card__item">
+            <amp-img src="./assets/images/img1.jpg" alt="Person 1" height="80" width="80" class="card__img"></amp-img>
+
+            <div class="card__text">
+              <h3 class="card__title">Alina Morton</h3>
+              <span class="card__profession">Web Developer</span>
+            </div>
+            <div class="card__icon-container">
+              <ion-icon name="logo-facebook"></ion-icon>
+              <ion-icon name="logo-instagram"></ion-icon>
+              <ion-icon name="logo-twitter"></ion-icon>
+            </div>
+          </div>
+
+          <div class="card__item">
+            <amp-img src="./assets/images/img2.jpg" alt="Person 2" height="80" width="80" class="card__img"></amp-img>
+
+            <div class="card__text">
+              <h3 class="card__title">Robbi Hawkins</h3>
+              <span class="card__profession">UI / UX Designer</span>
+            </div>
+            <div class="card__icon-container">
+              <ion-icon name="logo-medium"></ion-icon>
+              <ion-icon name="logo-instagram"></ion-icon>
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </div>
+          </div>
+
+          <div class="card__item">
+            <amp-img src="./assets/images/img3.jpg" alt="Person 3" height="80" width="80" class="card__img"></amp-img>
+
+            <div class="card__text">
+              <h3 class="card__title">Olivia Davidson</h3>
+              <span class="card__profession">Product Designer</span>
+            </div>
+            <div class="card__icon-container">
+              <ion-icon name="logo-facebook"></ion-icon>
+              <ion-icon name="logo-behance"></ion-icon>
+              <ion-icon name="logo-discord"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--===== IONICONS =====-->
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+    <!--===== SORTABLE JS =====-->
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
